@@ -1,0 +1,1 @@
+![My photo](my_photo_for_cv.jpg)
