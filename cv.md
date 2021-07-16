@@ -104,8 +104,7 @@ Specialist in tourism:
 * advising customers and providing them with necessary information;
 * preparing and  signing of contracts;
 * statistics maintaining and making reports.
-
-**Internship:**
+#### Internship
 
 **Tour agencies «Alye parusa», «Mayak tour»**
 
@@ -139,7 +138,7 @@ Engineer-economist:
 
 Speciality: Economics and organization of production (5th year, 2017-2021).
 
-Average mark: 9,4.
+**Average mark: 9,4.**
 
 Member of student science and technology conference at English Language department №1 BNTU. Project: «The Comparison of Soviet and Hollywood films on similar subjects». Awarded with a Certificate of excellence for demonstration English fluency.
 
@@ -151,7 +150,7 @@ Member of student science and technology conferencies at BNTU. Scientific works:
 
 Speciality: Linguistic resourcing of socio-cultural activity. 
 
-Average mark: 9,3.
+**Average mark: 9,3.**
 
 Member of the international scientific conferences of young scientists «Youth in science-2015», « Youth in science -2016» at the National academy of science of the Republic of Belarus. 
 
@@ -159,4 +158,4 @@ Member of the competition in the National library of the Republic of Belarus.
 
 Scientific projects: “The current state of family tourism. Prospects of development of family tourism in Belarus”, “The pearl of Grodno region”.
 ### English level
-B2 (college education and travelling abroad)
+**B2** (college education and travelling abroad)
