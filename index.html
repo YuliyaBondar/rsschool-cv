@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -15,10 +16,10 @@
         <img src="my_photo_for_cv.jpg" alt="my photo for">
         <h3>CONTACT</h3>
         <ul>
-            <li>Email: yuliabondar98@gmail.com</li>
-            <li>Tel. No: +37529 8583899</li>
-            <li>Discord: yuliyabondar#8061</li>
-            <li>Telegram: @yuliyabondar98</li>
+            <li><b>Email:</b> yuliabondar98@gmail.com</li>
+            <li><b>Tel. No:</b> +37529 8583899</li>
+            <li><b>Discord:</b> yuliyabondar#8061</li>
+            <li><b>Telegram: </b><a href="https://t.me/yuliyabondar98">@yuliyabondar98</a></li>
         </ul>
         <h3>PERSONAL SKILLS</h3>
         <ul>
@@ -31,7 +32,7 @@
             <li>fluent English and basic German</li>
         </ul> 
         <h3>ENGLISH LEVEL</h3>
-        B2 (college education and travelling abroad)       
+        <b>B2-C1</b> (college education and travelling abroad)       
     </aside>
     <main>
         <section>
@@ -41,10 +42,10 @@
         <section>
             <h3>EMPLOYMENT</h3> 
             <ul>
-                <li>Tour agency «Seven Travel»
+                <li><b>Tour agency «Seven Travel»</b>
                     <p>Travel Agent, marketing specialist, assistant of the site administrator</p>
                 </li>
-                <li>Tour agency «Tour haute Couture»
+                <li><b>Tour agency «Tour haute Couture»</b>
                     <p>Specialist in tourism</p>
                 </li>
             </ul>
@@ -52,13 +53,13 @@
         <section>
             <h3>EDUCATION</h3> 
             <ul>
-                <li>Belarusian National Technical University
-                    <p>Speciality: Economics and organization of production (5th year, 2017-2021).</p>
-                    <p>Average mark: 9,4.</p>
+                <li><b>Belarusian National Technical University</b>
+                    <p>Speciality: Economics and organization of production (5th year, 2017-2022).</p>
+                    <p>Average mark: <b>9,4.</b></p>
                 </li>
-                <li>Branch of Minsk State Linguistic University “Lingvo-humanitarian College”
+                <li><b>Branch of Minsk State Linguistic University “Lingvo-humanitarian College”</b>
                     <p>Speciality: Linguistic resourcing of socio-cultural activity.</p>
-                    <p>Average mark: 9,3.</p>
+                    <p>Average mark: <b>9,3.</b></p>
                 </li>
             </ul>
         </section>
@@ -66,104 +67,39 @@
             <h3>CODE EXAMPLE</h3>
             <pre>
                 <code>
-a[href$=".by/"] {
-font-weight:bold;
-}
-
-a[href^="https://"] {
-font-style:italic;
-}
-
-a:link {
-text-decoration: none;
-}
-
-a:hover {
-text-decoration: underline;
-}
-
-::-moz-selection {
-  background: orange;
-}
-
-::selection {
-  background: orange;
-}
-
-#s1 {
-    position:absolute; 
-    left:250px; 
-    top:70px; 
-    width:1000px; 
-    height:100px; 
-    z-Index:1; 
-    color:white;  
-    font-size:xx-large;
-}
-
-body   { 	
-    background:#e1dbf5; 
+body { 	
+    background: #e1dbf5; 
 }	
 
-   header { 	
-       background: blue;
-        background: -webkit-linear-gradient(to right bottom, #01395e, #0091cf); 
-		background:    -moz-linear-gradient(to right bottom, #01395e, #0091cf);
-		background:         linear-gradient(to right bottom, #01395e, #0091cf);
-		width: 100%; 	
-		clear: both; 	
-    }	
+section {	
+    background: #0e4d6c; 	
+    width: 70%; 		
+    float: left;  
+    font-size: large;		   
+}   
 
-   nav 	  { 	
-       background: blue;
-        background: -webkit-linear-gradient(to right bottom, white, #d7dfe9); 
-		background:    -moz-linear-gradient(to right bottom, white, #d7dfe9);
-		background:         linear-gradient(to right bottom, white, #d7dfe9);
-		width: 100%; 	
-		clear: both; 		
-        font-size:large; 
-    }
+aside {	  	
+    width: 25%; 		
+    float: right; 		  
+}
 
-   section {	
-       background: #0e4d6c; 	
-		width: 70%; 		
-	    float: left;  
-        color:white; 
-        font-size:large;		   
-    }   
+article { 	
+    background: #d7dfe9; 	 
+    color:#254558; 
+}
 
-   aside {	
-       background: rgba(153,0,76, .5); 
-		color: white; 			
-		border-radius: 55px 15px;	
-		border: 3px dashed red; 	
-		width: 25%; 		
-	    float: right; 		  
-    }
+main {	
+    background: #e1dbf5;	
+    width: 70%; 	
+    clear: both; 
+}	
 
-  @font-face {  
-      font-family: seguiemj;  
-        src: url(seguiemj.ttf); 
-    }
-
-   article { 	
-       background: #d7dfe9; 	
-		font: normal small-caps bold 14px/22px Segoeprb, "Helvetica Neue", Arial, sans-serif; 
-                color:#254558; 
-            }
-
-   main {	
-       background: #e1dbf5;	
-		width: 70%; 	
-		clear: both; 
-    }	
-
-   footer {	
-       background: #8fa6cc;                 	
-		width: 100%; 		
-		clear: both;
-        color: #01395e 		 
-    }
+footer {	
+    background: #8fa6cc;                 	
+    width: 100%; 		
+    clear: both;
+    color: #01395e 		 
+}
                 </code>
             </pre>    
         </section>
@@ -171,7 +107,7 @@ body   {
     <footer>
         <a href="https://github.com/YuliyaBondar">My GitHub</a>
         <time>2021-07-21</time>
-        <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="logo"></a> 
+        <a href="https://rs.school/js/"><img src="rs_school_js.svg" width="120" height="120" alt="logo"></a> 
     </footer>
 </body>
 </html>
