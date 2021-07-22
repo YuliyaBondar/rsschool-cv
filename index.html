@@ -1,3 +1,4 @@
+<div class="content">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,23 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">   
 </head>
 <body>
     <header>
-        <h1>Yuliya Bondar</h1>
+        <div class="content">
+        <h1>YULIYA BONDAR</h1>
         <h2>JUNIOR FRONT-END DEVELOPER</h2>
+        </div>
     </header>
-    <aside>
+    <main>
+    <div id="left">
         <img src="my_photo_for_cv.jpg" alt="my photo for">
-        <h3>CONTACT</h3>
+        <h4>CONTACT</h4>
         <ul>
             <li><b>Email:</b> yuliabondar98@gmail.com</li>
             <li><b>Tel. No:</b> +37529 8583899</li>
             <li><b>Discord:</b> yuliyabondar#8061</li>
-            <li><b>Telegram: </b><a href="https://t.me/yuliyabondar98">@yuliyabondar98</a></li>
+            <li><b>Telegram: </b>@yuliyabondar98</li>
         </ul>
-        <h3>PERSONAL SKILLS</h3>
+        <h4>PERSONAL SKILLS</h4>
         <ul>
             <li>ability to maintain the company's website, front-end skills</li>
             <li>ability to analyze the market</li>
@@ -31,10 +35,10 @@
             <li>good communicational skills</li>
             <li>fluent English and basic German</li>
         </ul> 
-        <h3>ENGLISH LEVEL</h3>
+        <h4>ENGLISH LEVEL</h4>
         <b>B2-C1</b> (college education and travelling abroad)       
-    </aside>
-    <main>
+    </div>
+    <div id="right">
         <article>
             <h3>ABOUT ME</h3>  
             I'm open-minded, trustworthy and enthusiastic, positive team player, striving for constant learning and development, focused on delivering results. No harmful habits, regular exercise and dancing.
@@ -63,46 +67,94 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <div class="code">
             <h3>CODE EXAMPLE</h3>
             <pre>
                 <code>
-body { 	
-    background: #e1dbf5; 
-}	
-
-section {	
-    background: #0e4d6c; 	
-    width: 70%; 		
-    float: left;  
-    font-size: large;		   
-}   
-
-aside {	  	
-    width: 25%; 		
-    float: right; 		  
-}
-
-article { 	
-    background: #d7dfe9; 	 
-    color:#254558; 
-}
-
-main {	
-    background: #e1dbf5;	
-    width: 70%; 	
-    clear: both; 
-}	
-
-footer {	
-    background: #8fa6cc;                 	
-    width: 100%; 		
-    clear: both;
-    color: #01395e 		 
-}
+&lt;!DOCTYPE html&gt; 
+&lt;html lang="ru"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="description" content="Контакты"&gt;
+&lt;meta name="keywords" content="Туры, Туризм, Карта"&gt;
+&lt;title&gt; Контакты &lt;/title&gt;
+&lt;link rel="stylesheet" href="Контакты.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;header&gt;
+&lt;a href="+Сайт.html"&gt;&lt;img src="Логотип.png" style='border-radius: 50%;'&gt;&lt;/a&gt;
+&lt;div id="s1"&gt;
+&lt;font&gt; Автобусные туры из Минска | Туристическое агентство Julia Travel 
+&lt;/font&gt;
+&lt;/div&gt;
+&lt;/header&gt;
+&lt;nav&gt; 
+&lt;center&gt;
+&lt;a href="+Сайт.html"&gt; Главная страница &lt;/a&gt;&nbsp &nbsp
+&lt;a href="График туров.html"&gt; График туров &lt;/a&gt;&nbsp &nbsp
+&lt;a href="Онлайн заказ.html"&gt; Онлайн заказ &lt;/a&gt;&nbsp &nbsp
+&lt;a href="Контакты.html"&gt; Контакты &lt;/a&gt;
+&lt;/center&gt;
+&lt;/nav&gt; 
+&lt;form&gt;
+&lt;input type="button" value="Цвет фона"
+onclick="document.body.style.backgroundColor='#0e4d6c'"&gt;
+&lt;input type="button" value="Цвет текста"
+onclick="document.body.style.color='#d7dfe9'"&gt;
+&lt;/form&gt;
+&lt;aside&gt;
+&lt;figure&gt; 
+&lt;img src="Директор.png" style='border-radius: 50%;'&gt;
+&lt;figcaption&gt; 
+&lt;center&gt; Я готова Вам помочь 
+&lt;br&gt; Юлия Бондарь 
+&lt;br&gt; +375 29 858-38-99  
+&lt;/center&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/aside&gt;
+&lt;section&gt;
+Контактные телефоны:
+&lt;article&gt;
++375 29 858 38 99 Velcom
+&lt;BR&gt;+375 29 858 38 99 MTS
+&lt;BR&gt;+375 17 231 63 52 Городской
+&lt;/article&gt;
+Режим работы: 
+&lt;article&gt;
+Понедельник – Пятница: 9.00 – 18.00
+&lt;br&gt;Суббота: 10.00 – 15.00
+&lt;br&gt;Воскресенье - выходной
+&lt;/article&gt;
+Наш адрес: 
+&lt;article&gt;
+ул. Янки Мавра 13, офис 24, г.Минск, 220015 
+&lt;br&gt;м.Пушкинская (10 минут)
+&lt;br&gt;Бесплатная парковка
+&lt;/article&gt;
+Email:
+&lt;article&gt;
+@ juliabondar98@gmail.com
+&lt;/article&gt;
+&lt;/section&gt;
+&lt;main&gt;
+&lt;h3&gt; Системы расчетов по банковской карте: &lt;/h3&gt;
+&lt;img src="visa-mastercard-accepted.png"&gt;
+&lt;center&gt;&lt;H2&gt; Мы на карте &lt;/H2&gt;&lt;/center&gt;
+&lt;iframe src="https://yandex.by/map-widget/v1/-/CCbur-mv" width="935" 
+height="500" frameborder="1" seamless&gt;&lt;/iframe&gt;
+&lt;/main&gt;
+&lt;footer&gt; 
+&lt;br&gt;
+&lt;address&gt; Дизайн и верстка сайта Юлия Бондарь &lt;/address&gt;
+&lt;small&gt; ©2019 — JuliaTravel. Все права защищены. ООО «Джулия Трэвел»&lt;/small&gt;
+&lt;/footer&gt;
+&lt;/body&gt; 
+&lt;/html&gt;
                 </code>
             </pre>    
-        </section>
+        </div>
+    </div>
     </main>
     <footer>
         <a href="https://github.com/YuliyaBondar">My GitHub</a>
@@ -111,3 +163,4 @@ footer {
     </footer>
 </body>
 </html>
+</div>
