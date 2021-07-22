@@ -71,3 +71,11 @@ section {
     line-height: 16px;
     border: double;
 }
+
+footer {
+    padding: 20;
+    text-align: right;
+    background: #68c5c0;
+    color: #FFFFFF; 
+    font-size: 28;		
+}
