@@ -1,16 +1,20 @@
 .content {
-    max-width: 1200;
+    width: 1440px;
     margin: 0 auto;
+    padding: 0 120px;    
+    overflow: hidden;
 }
 
 header {
-    padding: 10;
+    padding: 10px;
+
     text-align: center;
-    background: #E7F9F9;
-    background: -webkit-linear-gradient(to right bottom, #68c5c0, #E7F9F9); 
-	background:    -moz-linear-gradient(to right bottom, #68c5c0, #E7F9F9);
-	background:         linear-gradient(to right bottom, #68c5c0, #E7F9F9);
-    color: #2A3030;
+    color: #2a3030;
+
+    background: #e7f9f9;
+    background: -webkit-linear-gradient(to right bottom, #68c5c0, #e7f9f9); 
+	background:    -moz-linear-gradient(to right bottom, #68c5c0, #e7f9f9);
+	background:         linear-gradient(to right bottom, #68c5c0, #e7f9f9);
 }
 
 main {
@@ -19,67 +23,72 @@ main {
 
 #left {	 		
     float: left;
-    padding: 10;
-    font-size: 18;
-    background: #2A3030; 
-	color: #FFFFFF; 					
-	width: 400;		
+    width: 25%;
+    padding: 10px;
+
+    font-family: Tahoma;
+    font-size: 18px;
     line-height: 36px;
-    font-family: Tahoma;  
+    color: #ffffff; 
+
+    background: #2a3030;       
 }
 
 #right {
-    width: 800;
-    padding: 0 10 10;
     float: right;
-    background: #E7F9F9;
+    width: 75%;
+    padding: 0 10px 10px;
+    background: #e7f9f9;
 }
 
 h1 {
     font-family: Verdana;
 }
 
-h3 {
-    text-decoration: underline;
-}
-
+h3,
 h4 {
     text-decoration: underline;
 }
 
-#font {
-    color:#70D3CE;
+.font {
+    color:#70d3ce;
 }
 
 article,
 section {
-    padding: 10;
-    margin: 0 10 10;
-    font-size: 18;
-    border: double;
-    color: #2A3030;
+    margin: 0 10px 10px;
+    padding: 10px;
+
     font-family: Tahoma;
+    font-size: 18px;
     line-height: 36px;
+    color: #2a3030;
+
+    border: double;    
 }
 
 .code {
-    padding: 10;
-    margin: 10;
-    font-size: 18;
-    color: #2A3030;
+    margin: 10px;
+    padding: 10px;
+
     font-family: Tahoma;
+    font-size: 18px;
     line-height: 16px;
+    color: #2a3030;   
+
     border: double;
 }
 
 footer {
-    padding: 20;
+    padding: 20px;
+
+    font-size: 28px;
     text-align: right;
-    background: #68c5c0;
     color: #FFFFFF; 
-    font-size: 28;		
+    
+    background: #68c5c0;    		
 }
 
 a {
-    color:#2086c2
+    color:#2086c2;
 }
