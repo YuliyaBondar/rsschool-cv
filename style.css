@@ -41,6 +41,10 @@ main {
 	background: #e7f9f9;
 }
 
+figure {
+	margin: 0;
+}
+
 h1 {
 	font-family: Verdana;
 }
