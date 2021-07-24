@@ -1,7 +1,6 @@
 .content {
 	width: 1300px;
-	margin: 0 auto;
-	padding: 0 120px;    
+	margin: 0 auto; 
 	overflow: hidden;
 }
 
@@ -36,7 +35,6 @@ main {
 
 #right {
 	float: right;
-	width: 75%;
 	padding: 0 10px 10px;
 	background: #e7f9f9;
 }
