@@ -1,5 +1,14 @@
+html {
+	background: #c6f8f6;
+	background-size: cover;
+}
+
+body {
+	margin: 0;
+}
+
 .content {
-	width: 1300px;
+	max-width: 1300px;
 	margin: 0 auto; 
 	overflow: hidden;
 }
@@ -16,13 +25,14 @@ header {
 	background:         linear-gradient(to right bottom, #68c5c0, #e7f9f9);
 }
 
-main {
+.main-container {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 #left {	 		
 	float: left;
-	width: 25%;
+	max-width: 100%;
 	padding: 10px;
 
 	font-family: Tahoma;
@@ -35,8 +45,17 @@ main {
 
 #right {
 	float: right;
+	max-width: 100%;
 	padding: 0 10px 10px;
 	background: #e7f9f9;
+}
+
+.left-content {
+	max-width: 300px;
+}
+
+.right-content {
+	max-width: 960px;
 }
 
 figure {
