@@ -37,7 +37,7 @@ header {
 
 	font-family: Tahoma;
 	font-size: 18px;
-	line-height: 36px;
+	line-height: 30px;
 	color: #ffffff; 
 
 	background: #2a3030;       
@@ -50,16 +50,13 @@ header {
 	background: #e7f9f9;
 }
 
-/* .left-content {
-	max-width: 320px;
-} */
-
 .right-content {
 	max-width: 960px;
 }
 
 figure {
 	margin: 0;
+	text-align: center;
 }
 
 h1 {
