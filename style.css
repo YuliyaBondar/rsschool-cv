@@ -140,6 +140,10 @@ section {
 	color: #2a3030;
 }
 
+.icon {
+	mix-blend-mode: multiply;
+}
+
 .projects {
 	display: flex;	
 	justify-content: center;
