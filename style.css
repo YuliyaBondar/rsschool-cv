@@ -1,6 +1,5 @@
 a {
 	color:#2086c2;
-  text-decoration: none;
   outline: none;
 }
 
@@ -39,10 +38,11 @@ header {
   max-width: 100%;
 	flex-wrap: wrap;
 	background-color: #d2f5f3;
+	padding: 0;
 }
 
 .menu-item {
-  padding: 5px 38px;
+  padding: 10px 30px;
 }
 
 .menu-link {
@@ -52,7 +52,6 @@ header {
   
   font-size: 22px;
   font-weight: 200;  
-  color: #000000;
   letter-spacing: 2px;
   transition: color 0.2s;
 }
@@ -87,8 +86,8 @@ main {
 	padding: 10px;
 
 	font-family: Tahoma;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 15px;
+	line-height: 25px;
 	color: #ffffff; 
 
 	background: #2a3030;       
@@ -124,25 +123,26 @@ h4 {
 	color:#70d3ce;
 }
 
+.certificate {
+	color: #faea68;
+}
+
 article,
 section {
 	margin: 0 10px 10px;
 	padding: 10px;
 
 	font-family: Tahoma;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 15px;
+	line-height: 25px;
 	color: #2a3030;
 }
 
-.code {
-	margin: 10px;
-	padding: 10px;
-
-	font-family: Tahoma;
-	font-size: 18px;
-	line-height: 16px;
-	color: #2a3030;   
+.projects {
+	display: flex;	
+	justify-content: center;
+	column-gap: 30px;
+	flex-wrap: wrap;
 }
 
 footer {
