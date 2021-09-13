@@ -151,6 +151,10 @@ section {
 	flex-wrap: wrap;
 }
 
+.code {
+	overflow-x: auto;
+}
+
 footer {
 	padding: 20px;
 

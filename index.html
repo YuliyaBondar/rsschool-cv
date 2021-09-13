@@ -5,7 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CV</title>
-	<link rel="stylesheet" href="./style.css">       
+	<link rel="stylesheet" href="./style.css">  
+	<link rel="stylesheet" href="./highlight/styles/rainbow.min.css">
+	<script src="./highlight/highlight.min.js"></script>
+	<script>hljs.highlightAll();</script>
 </head>
 <body>    
 	<div class="content">
@@ -161,7 +164,7 @@
 					<section id="code">
 						<h3><img src="./assets/icon/js.png" alt="code" class="icon"> CODE EXAMPLE</h3>
 						<pre>
-							<code>
+							<code class="code">
 function getMatrix(number) {
 	let matrix = new Array();
 	let x = new Array();
