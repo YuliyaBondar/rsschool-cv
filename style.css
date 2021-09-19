@@ -32,7 +32,7 @@ header {
 	background:         linear-gradient(to right bottom, #68c5c0, #e7f9f9);
 }
 
-.menu-list {
+/* .menu-list {
   margin: 0;
 	display: flex;
   justify-content: space-evenly;  
@@ -56,6 +56,106 @@ header {
   font-weight: 200;  
   letter-spacing: 2px;
   transition: color 0.2s;
+} */
+
+nav {
+	text-align: left;
+}
+
+#menu-toggle {
+	opacity: 0;
+}
+
+.menu-button {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+
+	width: 26px;
+	height: 26px;
+
+	cursor: pointer;
+	z-index: 1;
+}
+
+.menu-button > span,
+.menu-button > span::before,
+.menu-button > span::after {
+	display: block;
+	position: absolute;
+
+	width: 100%;
+	height: 2px;
+
+	background-color: #2a3030;
+}
+
+.menu-button > span::before {
+	content: '';
+	top: -8px;
+}
+
+.menu-button > span::after {
+	content: '';
+	top: 8px;
+}
+
+.menu-list {
+	display: block;
+	position: fixed;
+	visibility: hidden;
+	top: 0;
+	left: -100%;
+
+	width: 300px;
+	height: 100%;
+
+	margin: 0;
+	padding: 80px 0;
+
+	list-style: none;
+	text-align: center;
+
+	background-color: #e7f9f9;
+	box-shadow: 1px 0 6px rgba(0,0,0,0.2);
+	opacity: 0.8;
+}
+
+.menu-item {
+	display: block;
+	padding: 12px 24px;
+
+	color: #2a3030;
+
+	font-size: 20px;
+	font-weight: 600;
+
+	text-decoration: none;
+}
+
+.menu-item:hover {
+	background-color: #68c5c0;
+}
+
+#menu-toggle:checked ~ .menu-button > span {
+	transform: rotate(45deg);
+}
+
+#menu-toggle:checked ~ .menu-button > span::before {
+	top: 0;
+	transform: rotate(0);
+}
+
+#menu-toggle:checked ~ .menu-button > span::after {
+	top: 0;
+	transform: rotate(90deg);
+}
+
+#menu-toggle:checked ~ .menu-list {
+	visibility: visible;
+	left: 0;
 }
 
 a:hover {
@@ -68,13 +168,13 @@ a:active {
   transition: color 0.2s;
 }
 
-ul.menu-list {
+/* ul.menu-list {
   list-style-type: none;
 }
 
 li.menu-list{
   list-style: none;
-}
+} */
 
 main {
 	display: flex;
@@ -142,6 +242,11 @@ section {
 
 .icon {
 	mix-blend-mode: multiply;
+}
+
+.video {
+	display: flex;
+	justify-content: center;
 }
 
 .projects {
