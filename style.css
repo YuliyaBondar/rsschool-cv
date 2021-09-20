@@ -32,34 +32,10 @@ header {
 	background:         linear-gradient(to right bottom, #68c5c0, #e7f9f9);
 }
 
-/* .menu-list {
-  margin: 0;
-	display: flex;
-  justify-content: space-evenly;  
-  align-items: center;
-  max-width: 100%;
-	flex-wrap: wrap;
-	background-color: #d2f5f3;
-	padding: 0;
-}
-
-.menu-item {
-  padding: 10px 30px;
-}
-
-.menu-link {
-  display: block;
-  max-width: 100%;
-  min-height: 100%;
-  
-  font-size: 22px;
-  font-weight: 200;  
-  letter-spacing: 2px;
-  transition: color 0.2s;
-} */
-
 nav {
 	text-align: left;
+	margin: 0;
+	height: 0;
 }
 
 #menu-toggle {
@@ -69,9 +45,9 @@ nav {
 .menu-button {
 	display: flex;
 	align-items: center;
-	position: fixed;
-	top: 20px;
-	left: 20px;
+	position: relative;
+	top: -70px;
+	left: 30px;
 
 	width: 26px;
 	height: 26px;
@@ -103,8 +79,11 @@ nav {
 }
 
 .menu-list {
-	display: block;
-	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 150px;
+	justify-content: center;
+	position: absolute;
 	visibility: hidden;
 	top: 0;
 	left: -100%;
@@ -113,7 +92,7 @@ nav {
 	height: 100%;
 
 	margin: 0;
-	padding: 80px 0;
+	padding: 10px 0;
 
 	list-style: none;
 	text-align: center;
@@ -137,6 +116,7 @@ nav {
 
 .menu-item:hover {
 	background-color: #68c5c0;
+	width: 100%;
 }
 
 #menu-toggle:checked ~ .menu-button > span {
@@ -167,14 +147,6 @@ a:active {
   color:  #2038c2;
   transition: color 0.2s;
 }
-
-/* ul.menu-list {
-  list-style-type: none;
-}
-
-li.menu-list{
-  list-style: none;
-} */
 
 main {
 	display: flex;
@@ -248,12 +220,68 @@ section {
 	display: flex;
 	justify-content: center;
 }
+iframe {
+	border: 0;
+}
 
 .projects {
 	display: flex;	
 	justify-content: center;
 	column-gap: 30px;
 	flex-wrap: wrap;
+}
+
+.project-link {
+  display: block;
+  transition: color 0.2s;
+	text-decoration: none;
+	color: #2a3030;
+}
+
+.project-link:hover {
+  color:  #9d8665;
+  transition: color 0.2s;
+}
+
+.project-link:active {
+  color:  #9d8665;
+  transition: color 0.2s;
+}
+
+h5 {  
+  width: 280px;
+  height: 18px;
+  
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.underline-title {
+  position: relative;
+}
+
+.underline-title::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -17px;
+  left: 0;
+
+  width: 230px;
+  height: 2px;
+
+  background-color: #710707;
+  transition: width 0.7s linear;
+}
+
+.project-link:hover .underline-title::after {
+  width: 100%;
+  transition: width 0.7s linear;
+}
+
+.project-text {
+  line-height: 21px;
 }
 
 .code {
