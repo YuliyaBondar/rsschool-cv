@@ -136,9 +136,9 @@ Engineer-economist:
 ### EDUCATION
 **Belarusian National Technical University**
 
-Speciality: Economics and organization of production (5th year, 2017-2021).
+Speciality: Economics and organization of production.
 
-**Average mark: 9,4.**
+**Average mark: 9,5.**
 
 Member of student science and technology conference at English Language department №1 BNTU. Project: «The Comparison of Soviet and Hollywood films on similar subjects». Awarded with a Certificate of excellence for demonstration English fluency.
 
