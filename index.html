@@ -4,210 +4,267 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>CV</title>
 	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./highlight/styles/rainbow.min.css">
+	<script src="./highlight/highlight.min.js"></script>
 </head>
 <body>
 	<div class="content">
 		<header>
 			<h1>YULIYA BONDAR</h1>
 			<h2>JUNIOR FRONT-END DEVELOPER</h2>
+			<nav class="navigation">
+				<input type="checkbox" id="menu-toggle">
+				<label for="menu-toggle" class="menu-button">
+					<span></span>
+				</label>
+				<ul class="menu-list">
+					<li class="menu-item">
+						<a class="menu-link" href="#contacts">Contacts</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#skills">Skills</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#certificate">Certificates</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#english">English</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#about">About me</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#employment">Employment</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#education">Education</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#video">Video</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#projects">Projects</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#code">Code</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
 		<main>
 			<div id="left">
-				<figure>
-					<img src="./my_photo_for_cv.jpg" alt="my photo for">
-				</figure>
-				<h3 class="font">CONTACT</h3>
-				<ul>
-					<li><b>Email:</b> yuliabondar98@gmail.com</li>
-					<li><b>Tel. No:</b> +37529 8583899</li>
-					<li><b>Discord:</b> yuliyabondar#8061</li>
-					<li><b>Telegram: </b><a href="https://t.me/yuliyabondar98">@yuliyabondar98</a></li>
-				</ul>
-				<h3 class="font">PERSONAL SKILLS</h3>
-				<ul>
-					<li>ability to maintain the company's website, front-end skills</li>
-					<li>ability to analyze the market</li>
-					<li>knowledge of basic programming languages</li>
-					<li>capability for analysis and quick decision-making</li>
-					<li>excellent knowledge of various computer programs</li>
-					<li>good communicational skills</li>
-					<li>fluent English and basic German</li>
-				</ul> 
-				<h3 class="font">ENGLISH LEVEL</h3>
-				<b>B2-C1</b> (college education and travelling abroad)
+				<div class="left-content">
+					<figure>
+						<img src="./assets/img/my_photo_for_cv.jpg" alt="my photo for">
+					</figure>
+					<h3 class="font" id="contacts">CONTACTS</h3>
+					<ul>
+						<li><b>Email:</b> yuliabondar98@gmail.com</li>
+						<li><b>Tel. No:</b> +37529 8583899</li>
+						<li><b>Discord:</b> yuliyabondar#8061</li>
+						<li><b>Telegram: </b><a href="https://t.me/yuliyabondar98">@yuliyabondar98</a></li>
+					</ul>
+					<h3 class="font" id="skills">PERSONAL SKILLS</h3>
+					<ul>
+						<li>Html, CSS, Sass, Less</li>
+						<li>Javascript, Typescript</li>
+						<li>Git, GitHub</li>
+						<li>Webpack, Gulp</li>
+						<li>VS Code, Figma</li>
+						<li>ООП, БЭМ</li>
+						<li>ability to maintain the company's 
+							<br>website, front-end skills</li>
+						<li>ability to analyze the market</li>
+						<li>knowledge of basic programming 
+							<br>languages</li>
+						<li>capability for analysis and quick 
+							<br>decision-making</li>
+						<li>excellent knowledge of various 
+							<br>computer programs</li>
+						<li>good communication skills</li>
+						<li>fluent English and basic German</li>
+					</ul>
+					<h3 class="font" id="certificate">CERTIFICATES</h3>
+					<p><a href="https://app.rs.school/certificate/ktbin4hn" class="certificate">JS/FE PRE-SCHOOL</a></p>
+					<p><a href="https://app.rs.school/certificate/1tnz0fg0" class="certificate">JAVASCRIPT/FRONT-END 2021Q3</a></p>
+					<h3 class="font" id="english">ENGLISH LEVEL</h3>
+					<b>B2</b> (college education and travelling 
+					<br>abroad)
+			</div>
 			</div>
 			<div id="right">
-				<article>
-					<h3>ABOUT ME</h3>  
-					I'm open-minded, trustworthy and enthusiastic, positive team player, striving for constant learning and development, focused on delivering results. No harmful habits, regular exercise and dancing.
-				</article>
-				<section>
-					<h3>EMPLOYMENT</h3> 
-					<p><b>Tour agency «Seven Travel»</b></p>
-					<p>Marketing specialist, assistant of the site administrator, travel Agent</p>
-					<ul>
-						<li>working with the site, front-end skills</li>
-						<li>maintaining of the advertising platforms</li>
-						<li>market analysis</li>
-						<li>maintaining of expense report on advertising platforms</li>
-						<li>tour sales</li>
-					</ul>
-					<p><b>Tour agency «Tour haute Couture»</b></p>
-					<p>Specialist in tourism</p>
-					<ul>
-						<li>collecting, processing and analysis of requirements of clients for tour services</li>
-						<li>searching and selecting of the most suitable and profitable offers</li>
-						<li>advising customers and providing them with necessary information</li>
-						<li>preparing and signing of contracts</li>
-						<li>statistics maintaining and making reports</li>
-					</ul>
-					<h4>INTERNSHIP</h4>
-					<p><b>Factory of automobile trailers and bodies «MAZ-Kupava»</b></p>
-					<p>Engineer-economist</p>
-					<ul>
-						<li>learning the processes of planning activities at the enterprise</li>
-						<li>learning the procedure for drawing up, justifying and implementing investment projects at the enterprise</li>
-						<li>SWOT analysis of the company's activities</li>
-						<li>identification of the main types of risks</li>
-					</ul>
-					<p><b>Hotel «Victoria»</b></p>
-					<p>Receptionist</p>
-					<ul>
-						<li>providing high standard service to the visitors, creating comfortable conditions for their staying in the hotel</li>
-						<li>consulting of clients on issues related to the provided services</li>
-						<li>preventing and eliminating conflict situations</li>
-						<li>informing the management of existing complaints related to unsatisfactory service</li>
-					</ul>
-					<p><b>Tour agencies «Alye parusa», «Mayak tour»</b></p>
-					<p>Specialist in tourism</p>
-					<ul>
-						<li>studying of the information about the services provided by tour operators, visa and customs regulations information, the various features of the most popular touristic destinations</li>
-						<li>searching, creating and editing of tour packages</li>
-						<li>working with control system Joomla</li>
-					</ul>
-					<p><b>National art museum of the Republic of Belarus</b></p>
-					<p>Tour guide</p>
-					<ul>
-						<li>conducting of excursions in English and Russian</li>
-					</ul>
-				</section>
-				<section>
-					<h3>EDUCATION</h3> 
-					<ul>
-						<li><b>Belarusian National Technical University</b>
-							<p>Speciality: Economics and organization of production (5th year, 2017-2022).</p>
-							<p>Average mark: <b>9,4.</b></p>
-							<p>Member of student science and technology conference at English Language department №1 BNTU. Project: «The Comparison of Soviet and Hollywood films on similar subjects». Awarded with a Certificate of excellence for demonstration English fluency.</p>
-							<p>Member of the XVII-th Seminar of students of Belarusian universities “The Orthodox Church in the history and culture of Belarus”. Scientific work: “Problems of Medieval Christian Philosophy”.</p>
-							<p>Member of student science and technology conferencies at BNTU. Scientific works: “Problems of public-relations development in Belarus in modern conditions”, “Viral and guerrilla marketing within the framework of Internet marketing”, “Problems of calculation of profitability in an industrial enterprise and ways to improve it”, “Problems of mechanical engineering in the Republic of Belarus”, “The Genesis of the State”.</p>
-						</li>
-						<li><b>Branch of Minsk State Linguistic University “Lingvo-humanitarian College”</b>
-							<p>Speciality: Linguistic resourcing of socio-cultural activity.</p>
-							<p>Average mark: <b>9,3.</b></p>
-							<p>Member of the international scientific conferences of young scientists «Youth in science-2015», « Youth in science -2016» at the National academy of science of the Republic of Belarus.</p>
-							<p>Member of the competition in the National library of the Republic of Belarus. Scientific projects: “The current state of family tourism. Prospects of development of family tourism in Belarus”, “The pearl of Grodno region”.</p>
-						</li>
-					</ul>
-				</section>
-				<div class="code">
-					<h3>CODE EXAMPLE</h3>
-					<pre>
-						<code>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="ru"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;meta name="description" content="Контакты"&gt;
-&lt;meta name="keywords" content="Туры, Туризм, Карта"&gt;
-&lt;title&gt; Контакты &lt;/title&gt;
-&lt;link rel="stylesheet" href="Контакты.css"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;header&gt;
-&lt;a href="+Сайт.html"&gt;&lt;img src="Логотип.png" style='border-radius: 50%;'&gt;&lt;/a&gt;
-&lt;div id="s1"&gt;
-&lt;font&gt; Автобусные туры из Минска | Туристическое агентство Julia Travel
-&lt;/font&gt;
-&lt;/div&gt;
-&lt;/header&gt;
-&lt;nav&gt; 
-&lt;center&gt;
-&lt;a href="+Сайт.html"&gt; Главная страница &lt;/a&gt;
-&lt;a href="График туров.html"&gt; График туров &lt;/a&gt;
-&lt;a href="Онлайн заказ.html"&gt; Онлайн заказ &lt;/a&gt;
-&lt;a href="Контакты.html"&gt; Контакты &lt;/a&gt;
-&lt;/center&gt;
-&lt;/nav&gt;
-&lt;form&gt;
-&lt;input type="button" value="Цвет фона"
-onclick="document.body.style.backgroundColor='#0e4d6c'"&gt;
-&lt;input type="button" value="Цвет текста" onclick="document.body.style.color='#d7dfe9'"&gt;
-&lt;/form&gt;
-&lt;aside&gt;
-&lt;figure&gt;
-&lt;img src="Директор.png" style='border-radius: 50%;'&gt;
-&lt;figcaption&gt;
-&lt;center&gt; Я готова Вам помочь
-&lt;br&gt; Юлия Бондарь
-&lt;br&gt; +375 29 858-38-99
-&lt;/center&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/aside&gt;
-&lt;section&gt;
-Контактные телефоны:
-&lt;article&gt;
-+375 29 858 38 99 Velcom
-&lt;BR&gt;+375 29 858 38 99 MTS
-&lt;BR&gt;+375 17 231 63 52 Городской
-&lt;/article&gt;
-Режим работы:
-&lt;article&gt;
-Понедельник – Пятница: 9.00 – 18.00
-&lt;br&gt;Суббота: 10.00 – 15.00
-&lt;br&gt;Воскресенье - выходной
-&lt;/article&gt;
-Наш адрес:
-&lt;article&gt;
-ул. Янки Мавра 13, офис 24, г.Минск, 220015
-&lt;br&gt;м.Пушкинская (10 минут)
-&lt;br&gt;Бесплатная парковка
-&lt;/article&gt;
-Email:
-&lt;article&gt;
-@ juliabondar98@gmail.com
-&lt;/article&gt;
-&lt;/section&gt;
-&lt;main&gt;
-&lt;h3&gt; Системы расчетов по банковской карте: &lt;/h3&gt;
-&lt;img src="visa-mastercard-accepted.png"&gt;
-&lt;center&gt;&lt;H2&gt; Мы на карте &lt;/H2&gt;&lt;/center&gt;
-&lt;iframe src="https://yandex.by/map-widget/v1/-/CCbur-mv" width="935" height="500" 
-frameborder="1" seamless&gt;&lt;/iframe&gt;
-&lt;/main&gt;
-&lt;footer&gt;
-&lt;br&gt;
-&lt;address&gt; Дизайн и верстка сайта Юлия Бондарь &lt;/address&gt;
-&lt;small&gt; ©2019 — JuliaTravel. Все права защищены. ООО «Джулия Трэвел»&lt;/small&gt;
-&lt;/footer&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-						</code>
-					</pre>
+				<div class="right-content">
+					<article id="about">
+						<h3><img src="./assets/icon/about-me-icon-3.jpg" alt="about me" class="icon"> ABOUT ME</h3>
+						I'm open-minded, trustworthy and enthusiastic, positive team player, striving for constant learning and development, focused on delivering results. No harmful habits, regular exercise and dancing.
+					</article>
+					<section id="employment">
+						<h3><img src="./assets/icon/simple-vector-icons-bags-business-260nw-1948331761.jpg" alt="employment" class="icon"> EMPLOYMENT</h3>
+						<p><b>Tour agency «Seven Travel»</b></p>
+						<p>Marketing specialist, assistant of the site administrator, travel Agent</p>
+						<ul>
+							<li>working with the site, front-end skills</li>
+							<li>maintaining of the advertising platforms</li>
+							<li>market analysis</li>
+							<li>maintaining of expense report on advertising platforms</li>
+							<li>tour sales</li>
+						</ul>
+						<p><b>Tour agency «Tour haute Couture»</b></p>
+						<p>Specialist in tourism</p>
+						<ul>
+							<li>collecting, processing and analysis of requirements of clients for tour services</li>
+							<li>searching and selecting of the most suitable and profitable offers</li>
+							<li>advising customers and providing them with necessary information</li>
+							<li>preparing and signing of contracts</li>
+							<li>statistics maintaining and making reports</li>
+						</ul>
+						<h4><img src="./assets/icon/internship.png" alt="internship" class="icon"> INTERNSHIP</h4>
+						<p><b>Factory of automobile trailers and bodies «MAZ-Kupava»</b></p>
+						<p>Engineer-economist</p>
+						<ul>
+							<li>learning the processes of planning activities at the enterprise</li>
+							<li>learning the procedure for drawing up, justifying and implementing investment projects at the enterprise</li>
+							<li>SWOT analysis of the company's activities</li>
+							<li>identification of the main types of risks</li>
+						</ul>
+						<p><b>Hotel «Victoria»</b></p>
+						<p>Receptionist</p>
+						<ul>
+							<li>providing high standard service to the visitors, creating comfortable conditions for their staying in the hotel</li>
+							<li>consulting of clients on issues related to the provided services</li>
+							<li>preventing and eliminating conflict situations</li>
+							<li>informing the management of existing complaints related to unsatisfactory service</li>
+						</ul>
+						<p><b>Tour agencies «Alye parusa», «Mayak tour»</b></p>
+						<p>Specialist in tourism</p>
+						<ul>
+							<li>studying of the information about the services provided by tour operators, visa and customs regulations information, the various features of the most popular touristic destinations</li>
+							<li>searching, creating and editing of tour packages</li>
+							<li>working with control system Joomla</li>
+						</ul>
+						<p><b>National art museum of the Republic of Belarus</b></p>
+						<p>Tour guide</p>
+						<ul>
+							<li>conducting of excursions in English and Russian</li>
+						</ul>
+					</section>
+					<section id="education">
+						<h3><img src="./assets/icon/education.png" alt="education" class="icon"> EDUCATION</h3>
+						<ul>
+							<li><b>Belarusian National Technical University</b>
+								<p>Speciality: Economics and organization of production.</p>
+								<p>Average mark: <b>9,5.</b></p>
+								<p>Member of student science and technology conference at English Language department №1 BNTU. Project: «The Comparison of Soviet and Hollywood films on similar subjects». Awarded with a Certificate of excellence for demonstration English fluency.</p>
+								<p>Member of the XVII-th Seminar of students of Belarusian universities “The Orthodox Church in the history and culture of Belarus”. Scientific work: “Problems of Medieval Christian Philosophy”.</p>
+								<p>Member of student science and technology conferencies at BNTU. Scientific works: “Problems of public-relations development in Belarus in modern conditions”, “Viral and guerrilla marketing within the framework of Internet marketing”, “Problems of calculation of profitability in an industrial enterprise and ways to improve it”, “Problems of mechanical engineering in the Republic of Belarus”, “The Genesis of the State”.</p>
+							</li>
+							<li><b>Branch of Minsk State Linguistic University “Lingvo-humanitarian College”</b>
+								<p>Speciality: Linguistic resourcing of socio-cultural activity.</p>
+								<p>Average mark: <b>9,3.</b></p>
+								<p>Member of the international scientific conferences of young scientists «Youth in science-2015», « Youth in science -2016» at the National academy of science of the Republic of Belarus.</p>
+								<p>Member of the competition in the National library of the Republic of Belarus. Scientific projects: “The current state of family tourism. Prospects of development of family tourism in Belarus”, “The pearl of Grodno region”.</p>
+							</li>
+						</ul>
+					</section>
+					<section id="video">
+						<h3><img src="./assets/icon/video.jpg" alt="video" class="icon"> SELF-INTRODUCTION</h3>
+						<div class="video">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/T95gj4ixXtI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</section>
+					<section id="projects">
+						<h3><img src="./assets/icon/project-management-34-887151.png" alt="project" class="icon"> MY PROJECTS</h3>
+						<div class="projects">
+							<a class="project-link" href="https://rolling-scopes-school.github.io/yuliyabondar-JSFEPRESCHOOL/js-clock/" target="_blank">
+								<img src="./assets/img/js-clock.jpg" alt="js-clock">
+								<h5 class="underline-title">JS Сlock</h5>
+								<p class="project-text">
+									mechanical watch with moving hands <br>(HTML, CSS, JS). <br>Technologies: DOM, date and time.
+								</p>
+							</a>
+							<a class="project-link" href="https://rolling-scopes-school.github.io/yuliyabondar-JSFEPRESCHOOL/custom-video-player/" target="_blank">
+								<img src="./assets/img/player.jpg" alt="player">
+								<h5 class="underline-title">Custom Video Player</h5>
+								<p class="project-text">
+									a video player executed in accordance with <br> the designer's idea and which appearance <br> does not depend on the browser or device <br>(HTML, CSS, JS). <br>Technologies: DOM, video.
+								</p>
+							</a>
+							<a class="project-link" href="https://rolling-scopes-school.github.io/yuliyabondar-JSFE2021Q3/museum-dom/" target="_blank">
+								<img src="./assets/img/museum_dom.png" alt="museum">
+								<h5 class="underline-title">Museum</h5>
+								<p class="project-text">
+									the website of the Louvre, one of the <br> largest and most popular art museums in <br> the world.
+								</p>
+							</a>
+							<a class="project-link" href="https://yuliyabondar.github.io/cssMemSlider/cssMemSlider/index.html" target="_blank">
+								<img src="./assets/img/css_mem_slider.png" alt="CSS Mem Slider">
+								<h5 class="underline-title">CSS Mem Slider</h5>
+								<p class="project-text">
+									slider created using css only.
+								</p>
+							</a>
+							<a class="project-link" href="https://rolling-scopes-school.github.io/yuliyabondar-JSFE2021Q3/momentum/" target="_blank">
+								<img src="./assets/img/momentum_deploy.png" alt="momentum">
+								<h5 class="underline-title">Momentum</h5>
+								<p class="project-text">
+									an analogue of the Chrome online store <br> app.
+								</p>
+							</a>
+							<a class="project-link" href="https://rolling-scopes-school.github.io/yuliyabondar-JSFE2021Q3/art-quiz/dist/" target="_blank">
+								<img src="./assets/img/art-quiz_deploy.png" alt="art quiz">
+								<h5 class="underline-title">Art quiz</h5>
+								<p class="project-text">
+									the application is a quiz on the knowledge <br> of masterpieces of painting and their <br> authors.
+								</p>
+							</a>
+							<a class="project-link" href="https://rolling-scopes-school.github.io/yuliyabondar-JSFE2021Q3/migration-newip-to-ts/" target="_blank">
+								<img src="./assets/img/migration-to-ts.png" alt="migration-newip-to-ts">
+								<h5 class="underline-title">News API</h5>
+								<p class="project-text">
+									HTTP REST API for searching and <br> retrieving news from all over the Internet.
+								</p>
+							</a>
+							<a class="project-link" href="https://rolling-scopes-school.github.io/yuliyabondar-JSFE2021Q3/christmas-task/" target="_blank">
+								<img src="./assets/img/christmas-task2_deploy.jpg" alt="christmas-task">
+								<h5 class="underline-title">Christmas</h5>
+								<p class="project-text">
+									the application that allows you to sort <br> and filter toys, find a toy by name, add <br> toys to favorites, decorate a Christmas tree.
+								</p>
+							</a>
+						</div>
+					</section>
+					<!-- <section id="code">
+						<h3><img src="./assets/icon/js.png" alt="code" class="icon"> CODE EXAMPLE</h3>
+						<pre>
+							<code class="code">
+function getMatrix(number) {
+	let matrix = new Array();
+	let x = new Array();
+	for (let i = 0; i &lt; number; i += 1) {
+		x[i] = new Array(number);
+		a = x[i].fill(0);
+		matrix.push(a);
+		matrix[i][i] = 1;
+	}
+	return matrix;
+} 
+							</code>
+						</pre>
+					</section> -->
 				</div>
 			</div>
 		</main>
 		<footer>
-			<a href="https://github.com/YuliyaBondar"><img src="./icon/icon.png" width="30" height="30" alt="icon"> My GitHub</a>
-			<time>2021-07-21</time>
-			<br><a href="https://rs.school/js/"><img src="./icon/rs_school_js.svg" width="120" height="120" alt="logo"></a>
+			<a href="https://github.com/YuliyaBondar"><img src="./assets/icon/icon.png" width="30" height="30" alt="icon"> My GitHub</a>
+			<time>2021-09-09</time>
+			<br><a href="https://rs.school/js/"><img src="./assets/icon/rs_school_js.svg" width="120" height="120" alt="logo"></a>
 		</footer>
 	</div>
-ебования к Pull Request (+10) \n-есть видеорезюме автора CV на английском языке (+10) \n-дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию (+10)');
-	</script>
-V содержит пример вашего кода (решение задачи с сайта codewars) с подсветкой кода (+10) \n-CV содержит изображения-ссылки на выполненные вами проекты (+10) \n-CV выполнено на английском языке (+10) \n-выполнены требования к Pull Request (+10) \n-есть видеорезюме автора CV на английском языке (+10) \n-дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию (+10)');
+	<script>
+		hljs.highlightAll();
+		console.log('Score: 160 / 150.\n- вёрстка валидная (+10) Надпись "Document checking completed. No errors or warnings to show.".\n- вёрстка семантическая (+20) В коде страницы присутствуют семантические теги HTML5 article, figure, footer, header, main, nav, section, используются заголовки h1-h5 \n- для оформления СV используются css-стили (+10) \n-контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет, если он есть, тянется во всю ширину страницы (+10) \n-вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки, при этом всё содержание страницы сохраняется (+10) \n -есть адаптивное бургер-меню (+10) \n-на странице СV присутствует изображение - фото или аватарка автора CV, пропорции изображения не искажены, у изображения есть атрибут alt (+10) \n -контакты для связи и перечень навыков оформлены в виде списка ul > li (+10) \n-CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского (+10) \n-CV содержит пример вашего кода (решение задачи с сайта codewars) с подсветкой кода (+10) \n-CV содержит изображения-ссылки на выполненные вами проекты (+10) \n-CV выполнено на английском языке (+10) \n-выполнены требования к Pull Request (+10) \n-есть видеорезюме автора CV на английском языке (+10) \n-дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию (+10)');
 	</script>
 </body>
 </html>
